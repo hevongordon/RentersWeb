@@ -1,0 +1,45 @@
+ul{
+        position: absolute;
+        padding: 0;
+        list-style: none;
+    }
+    ul li{ 
+        position: relative;
+        float: left;
+        width: 100px;
+        text-align: center;
+        line-height: 21px;
+    }
+    ul li a{
+        display: block;
+        padding: 5px 10px;
+        color: white;
+        background: #3a332b;
+        text-decoration: none;
+    }
+    ul li a:hover{
+        color: #3a332b;
+        background: #0a9e95;
+    }
+    ul li ul{
+        display: none;
+    }
+    ul li:hover ul{
+        display: block; /* display the dropdown */
+    }
+
+    #color{
+        
+    }
+
+    #body{
+  background-image: url("areasBG.png");
+}
+#content{
+   width:800px;
+   
+}
+
+#floater{
+    margin-top: 160px;
+}

@@ -1,0 +1,91 @@
+/* 
+    Document   : RentersCss
+    Created on : Jan 18, 2015, 1:21:43 AM
+    Author     : hevongordon
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+    
+}
+body{
+    background-image: url("background.png");
+   background-repeat: no-repeat
+}
+
+
+#floater{
+     margin-left:70px;
+    height: 67px;
+  background: #ffffff;
+  margin-top: 150px;
+}
+.menu{
+   width:800px; 
+}
+
+#search{
+    width: 20%;
+    margin-left: 12px;
+}
+
+#button{
+  background: #1abc9c;
+  padding: 2px;
+  font-size: 15px;
+  width: 8%;
+  border: none;
+  color: #fff;
+  margin-left: 12px;
+  border-radius: 5px;
+}
+
+.fontcol{
+    color:white;
+    font-size: 18px;
+}
+.horiz{
+    color:#faf8fa;
+}
+
+.Slider{
+    margin-top: 25px;
+    margin-left: 12px;
+}
+
+
+
+
+
+
+div.menu5
+{
+    /*width:500px;margin:0 auto;*//*Uncomment this line to make the menu center-aligned.*/
+    text-align:center;
+    background:#332E28;
+    font-size:0;
+    padding:1px;
+}
+
+div.menu5 a
+{
+    display: inline-block;
+    padding: 0 20px;
+    background:#3A332C;
+    border:1px solid #5E544A;
+    color:#C4B09C;
+    text-decoration:none;
+    font: bold 12px Arial;
+    line-height: 27px;
+    margin-left:1px;
+}
+
+div.menu5 a:hover, div.menu5 a.current
+{
+    background:#0a9e95;
+    color:#E6D4C3;
+}
+
+ 
