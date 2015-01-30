@@ -1,45 +1,48 @@
-ul{
-        position: absolute;
-        padding: 0;
-        list-style: none;
-    }
-    ul li{ 
-        position: relative;
-        float: left;
-        width: 100px;
-        text-align: center;
-        line-height: 21px;
-    }
-    ul li a{
-        display: block;
-        padding: 5px 10px;
-        color: white;
-        background: #3a332b;
-        text-decoration: none;
-    }
-    ul li a:hover{
-        color: #3a332b;
-        background: #0a9e95;
-    }
-    ul li ul{
-        display: none;
-    }
-    ul li:hover ul{
-        display: block; /* display the dropdown */
-    }
 
-    #color{
-        
-    }
-
-    #body{
-  background-image: url("areasBG.png");
-}
-#content{
-   width:800px;
-   
+#filterbutton{
+  position:relative;
+  background: #1abc9c;
+  padding: 2px;
+  font-size: 15px;
+  width: 80%;
+  border: none;
+  color: #fff;
+  margin-left: 12px;
+  border-radius: 5px;
 }
 
-#floater{
-    margin-top: 160px;
+.price{width:50%}
+
+ .merger
+    {
+        padding: 1px;           
+        border: 1px solid gray; 
+    }
+    .merger > label
+    {
+        color: #0a9e95;
+        background-color: white;    
+
+        -webkit-touch-callout: none;    /*Make the label text unselectable*/
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+    }
+    .merger > input
+    {
+        border: none;           /*We have our fake border already*/
+	width:39%;
+    }
+hr{
+ border: 0; height: 1px; background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+background-image: -moz-linear-gradient(left, rgba(4,0,1,0), rgba(2,0,0,0.75), rgba(0,0,0,0)); 
+background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+ background-image: -o-linear-gradient(left, rgba(0,0,1,0), rgba(0,0,6,0.75), rgba(0,0,0,0)); 
+
 }
+
+
+
+
+

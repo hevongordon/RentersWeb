@@ -15,6 +15,13 @@ body{
    background-repeat: no-repeat
 }
 
+#bottom{
+  position: absolute;
+  margin-top: 500px;
+}
+#allcontent{
+  position: relative;
+}
 
 #floater{
      margin-left:70px;
@@ -50,11 +57,30 @@ body{
     color:#faf8fa;
 }
 
-.Slider{
+#content{
+position:absolute;
+     width: 70%;
+    float: left;
     margin-top: 25px;
     margin-left: 12px;
+
 }
 
+div#rightside {
+    position:relative;
+    float: right;
+    width:27%;
+    margin-right:8px;
+    margin-top: 22px;
+    height: 200px;
+}
+
+fieldset {
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+
+}
 
 
 
