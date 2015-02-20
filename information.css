@@ -1,0 +1,27 @@
+p{
+	font-size: 90%;
+	font-family: "Cambria", Georgia, Serif;
+}
+
+a:link {
+	color: #FF0000;
+    text-decoration: none;
+}
+
+a:visited {
+	color: #0a9e95;
+    text-decoration: none;
+}
+
+a:hover {
+	color: black;
+    text-decoration: underline;
+}
+
+a:active {
+	color: #FF0000;
+    text-decoration: underline;
+}
+
+
+

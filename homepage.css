@@ -15,6 +15,8 @@ body{
    background-repeat: no-repeat
 }
 
+
+
 #bottom{
   position: absolute;
   margin-top: 500px;
@@ -66,6 +68,12 @@ position:absolute;
 
 }
 
+#seperator{
+position:absolute;
+margin-top:700px;
+
+}
+
 div#rightside {
     position:relative;
     float: right;
@@ -74,6 +82,15 @@ div#rightside {
     margin-top: 22px;
     height: 200px;
 }
+
+hr{
+ border: 0; height: 1px; background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+background-image: -moz-linear-gradient(left, rgba(4,0,1,0), rgba(2,0,0,0.75), rgba(0,0,0,0)); 
+background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+ background-image: -o-linear-gradient(left, rgba(0,0,1,0), rgba(0,0,6,0.75), rgba(0,0,0,0)); 
+
+}
+
 
 fieldset {
 -webkit-border-radius: 8px;
@@ -113,5 +130,9 @@ div.menu5 a:hover, div.menu5 a.current
     background:#0a9e95;
     color:#E6D4C3;
 }
-
+#login{
+  margin-right: 120px;
+  
+  background: #ffffff;
+}
  

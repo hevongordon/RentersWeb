@@ -1,0 +1,62 @@
+#first{
+
+	float: left;
+	width:25%;
+}
+#second{
+	margin-left:12px;
+
+	float: left;
+	width:25%;
+}
+
+
+#third{
+	margin-left: 12px;
+	float: left;
+	width:30%;
+}
+
+
+
+a:link {
+	color: #FF0000;
+    text-decoration: none;
+}
+
+a:visited {
+	color: #0a9e95;
+    text-decoration: none;
+}
+
+a:hover {
+	color: black;
+    text-decoration: underline;
+}
+
+a:active {
+	color: #FF0000;
+    text-decoration: underline;
+}
+
+.areascontent p {
+    font-family: "Cambria", Georgia, Serif;
+    font-size: 125%;
+} 
+
+.areascontent {
+	margin-left: 103px;
+
+}
+.areascontent p{
+
+}
+
+hr{
+ border: 0; height: 1px; background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+background-image: -moz-linear-gradient(left, rgba(4,0,1,0), rgba(2,0,0,0.75), rgba(0,0,0,0)); 
+background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+ background-image: -o-linear-gradient(left, rgba(0,0,1,0), rgba(0,0,6,0.75), rgba(0,0,0,0)); 
+
+}
+
