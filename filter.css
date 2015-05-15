@@ -1,4 +1,7 @@
 
+
+#filterholder{border-style: 1px solid blue;}
+
 #filterbutton{
   position:relative;
   background: #1abc9c;
@@ -42,6 +45,12 @@ background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgb
 
 }
 
+/*fieldset
+{
+  border-radius: 2px;
+  border:blue;
+}
+*/
 
 
 

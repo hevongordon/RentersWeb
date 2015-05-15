@@ -10,10 +10,6 @@ root {
     display: block;
     
 }
-body{
-    background-image: url("background.png");
-   background-repeat: no-repeat
-}
 
 
 /*.container{
@@ -22,107 +18,91 @@ body{
   margin: auto;
 }
 */
-#bottom{
-  position: absolute;
-  margin-top: 500px;
+
+
+
+html{
+    width:100%;
+    height:100%;
 }
-#allcontent{
-  position: relative;
+body
+{
+
+	min-width:900px;
 }
 
-
-#floater{
-
-  width: 100%;
-  height: 67px;
-  background: #ffffff;
-  margin-top: 150px;
-  position: relative;
+.stretch {
+    width:100%;
+    height:100%;
 }
 .menu{
   
    width:100%; 
+   float: left;
+  /* background-color: green;*/
 }
 
 #search{
     width: 20%;
     margin-left: 12px;
+    
+ 
 }
 
 #button{
   cursor: pointer;
   background: #1abc9c;
-  padding: 2px;
-  font-size: 17px;
+  padding: 4px;
+  font-size: 25px;
   width: 6%;
-  border: none;
+ border: none;
   color: #fff;
+  font-size: 12px;
   margin-left: 12px;
   border-radius: 5px;
 }
 
 .fontcol{
-    color:white;
+    color:blue;
     font-size: 18px;
 }
 .horiz{
     color:#faf8fa;
 }
 
-#content{
-position:absolute;
-     width: 70%;
+#left-side-content{
+     width: 65%;
     float: left;
-    margin-top: 25px;
+    margin-top: 22px;
     margin-left: 12px;
+  
+  }
 
-}
 
-#seperator{
-position:absolute;
-margin-top:700px;
-
-}
-
-div#rightside {
-    position:relative;
+#right-side-content {
     float: right;
-    width:27%;
+    width:30%;
     margin-right:8px;
     margin-top: 22px;
-    height: 200px;
+/*    background-color: blue;*/
+   
 }
-
-hr{
- border: 0; height: 1px; background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-background-image: -moz-linear-gradient(left, rgba(4,0,1,0), rgba(2,0,0,0.75), rgba(0,0,0,0)); 
-background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
- background-image: -o-linear-gradient(left, rgba(0,0,1,0), rgba(0,0,6,0.75), rgba(0,0,0,0)); 
-
-}
-
-fieldset {
--webkit-border-radius: 8px;
--moz-border-radius: 8px;
-border-radius: 8px;
-
-}
-
-
-
-
 
 div.menu5
 {
     /*width:500px;margin:0 auto;*//*Uncomment this line to make the menu center-aligned.*/
-    text-align:center;
-    background:#332E28;
-    font-size:0;
+ /*   text-align:center;*/
+  
     padding:1px;
+    margin-left: 12px;
+ /*   min-width:900px;*/
+    margin-top: 20px;
+   
 }
 
 div.menu5 a
 {
+	
     display: inline-block;
     padding: 0 20px;
     background:#3A332C;
@@ -136,6 +116,7 @@ div.menu5 a
 
 div.menu5 a:hover, div.menu5 a.current
 {
+
     background:#0a9e95;
     color:#E6D4C3;
 }
@@ -159,3 +140,15 @@ div.menu5 a:hover, div.menu5 a.current
    background:#0a9e95;
     color:#E6D4C3;
  }
+
+#log-reg{
+
+  width: 35%;
+  background: white;
+/*  margin-top: 13px;*/
+  float: right;
+}
+#span
+{
+	 font-size:0;
+}

@@ -1,0 +1,98 @@
+#logo{
+	
+	margin-right: 345px;
+	
+	background-image: url('logo.png');
+	background-repeat: no-repeat;
+
+}
+#leftwriting
+{
+	position: relative;
+	float: left;
+	display: block;
+}
+#rightwriting
+{
+	position: relative;
+	float: right;
+	display: block;
+}
+#signin{
+	color: #313131;
+	font-size: 30px;
+	outline-color: blue;
+}
+#signin-1
+{
+	color:#313131;
+	font-size: 15px;
+}
+.container{
+	margin: auto;
+	width: 1100px;
+}
+
+.button
+{
+	background: #1abc9c;
+  padding: 10px;
+  font-size: 20px;
+  display: block;
+  width: 90%;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+fieldset{
+	
+	border-radius: 5px;
+	width: 45%;
+	border: 1px solid #ffffff;
+	margin-left: 40px;
+	box-shadow: 12px 12px 50px 12px #888888;
+}
+#form{
+	margin-top:180px;
+	margin-left: 50px;
+}
+.field
+{  
+padding: 7px 5px;
+  margin: 10px 0;
+  width: 96%;
+  display: block;
+  font-size: 18px;
+  border-radius: 15px;
+  border: 1px solid #3A332C;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+	background:#ffffff;
+	width: 90%;
+}
+body
+{
+	background-color: #ffffff;
+}
+
+a:link {
+	color: #0a9e95;
+    text-decoration: none;
+}
+
+a:visited {
+	color: #0a9e95;
+    text-decoration: none;
+}
+
+a:hover {
+	color: black;
+    text-decoration: underline;
+}
+
+a:active {
+	color: #FF0000;
+    text-decoration: underline;
